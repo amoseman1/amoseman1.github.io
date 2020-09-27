@@ -9,7 +9,7 @@ I debugged the 'Search Engine Optimization' link on the website so it functioned
 There are comments added to the CSS and HTML files to show the changes made.
 
 **URL for Deployed Webpage**:
-<a href=https://amoseman1.github.io></a>
+<href=https://amoseman1.github.io>
 
 **Screenshot:**
 <img src="_Users_amymoseman_Desktop_Class_Homework_amoseman1.github.io_index.html (1).png" />
