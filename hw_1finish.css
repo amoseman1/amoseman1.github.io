@@ -1,5 +1,3 @@
-/* this file needs comments */
-
 * {
   box-sizing: border-box;
   padding: 0;
@@ -10,7 +8,7 @@ body {
   background-color: #d9dcd6;
 }
 
-.header {
+header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -19,18 +17,18 @@ body {
 }
 
 /* This is the font size and location of business name in header 1  */
-.header h1 {
+header h1 {
   display: inline-block;
   font-size: 48px;
 }
 
 /* This changes the color for a couple of the letters in the business name - top left of page */
-.header h1 .seo {
+header h1 .seo {
   color: #d9dcd6;
 }
 
-.header div {
-  /* header element */
+/* header element */
+header nav {
   padding-top: 15px; /* moves the content in the element from edge 15 px */
   margin-right: 20px; /* creates white space*/
   float: right; /* moves the element to right of screen */
@@ -38,11 +36,11 @@ body {
   font-size: 20px;
 }
 
-.header div ul {
+header nav ul {
   list-style-type: none;
 }
 
-.header div ul li {
+header nav ul li {
   display: inline-block;
   margin-left: 25px;
 }
@@ -69,12 +67,12 @@ p {
   height: 800px;
   width: 100%;
   margin-bottom: 25px;
-  background-image: url("../assets/images/digital-marketing-meeting.jpg");
+  background-image: url("./assets/images/digital-marketing-meeting.jpg");
   background-size: cover;
   background-position: center;
 }
 
-/* Control whther images in the boxes are left or right of text */
+/* Control whether images in the boxes are left or right of text */
 .float-left {
   float: left;
   margin-right: 25px;
@@ -85,13 +83,13 @@ p {
   margin-left: 25px;
 }
 
-/* Styles the left/center boxes to be put closer to the right panel */
+/* Styles the Article-section boxes to be put closer to the aside-right panel */
 .content {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
-/* This is the style for entire right panel */
+/* This is the style for entire aside-right panel */
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -103,7 +101,7 @@ p {
   background-color: #2589bd;
 }
 
-/* Right panel: Three of the same color and text size paragraphs*/
+/* Aside(right panel): Three of the same color and text size paragraphs*/
 .benefit-lead,
 .benefit-brand,
 .benefit-cost {
@@ -111,7 +109,7 @@ p {
   color: #ffffff;
 }
 
-/* Right panel:Three of the same style headers??????*/
+/* Aside(right panel):Three of the same style headers*/
 .benefit-lead h3,
 .benefit-brand h3,
 .benefit-cost h3 {
@@ -119,7 +117,7 @@ p {
   text-align: center;
 }
 
-/*  Right panel:Three images all the same  */
+/*  Aside(right panel):Three images all the same  */
 .benefit-lead img,
 .benefit-brand img,
 .benefit-cost img {
@@ -128,7 +126,7 @@ p {
   max-width: 150px;
 }
 
-/*  Left/center panel:Three headers are same style  */
+/*  Article-section panel:Three headers are same style  */
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
@@ -140,14 +138,14 @@ p {
   color: #ffffff;
 }
 
-/*  Left/center panel:Three images same size */
+/*  Article-section panel:Three images same size */
 .search-engine-optimization img,
 .online-reputation-management img,
 .social-media-marketing img {
   max-height: 200px;
 }
 
-/*  Left/center panel:Three Headers all the same size and margin */
+/* Article-section panel:Three Headers all the same size and margin */
 .search-engine-optimization h2,
 .online-reputation-management h2,
 .social-media-marketing h2 {
